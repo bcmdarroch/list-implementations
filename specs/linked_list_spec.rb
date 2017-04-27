@@ -9,16 +9,19 @@ describe LinkedList do
     end
 
     it "must return a list with one item" do
+      skip
       list.size.must_equal 1
     end
 
     it "must return a list that includes the parameter" do
+      skip
       list.include?(0).must_equal true
     end
   end
 
   describe "size" do
     it "must return correct size" do
+      skip
       list.size.must_equal 1
 
       list.add(1)
@@ -33,6 +36,7 @@ describe LinkedList do
 
   describe "add" do
     it "must increase the size by 1" do
+      skip
       start_size = list.size
 
       list.add(1)
@@ -41,6 +45,7 @@ describe LinkedList do
     end
 
     it "must include the new value in the list" do
+      skip
       list.include?(1).must_equal false
 
       list.add(1)
@@ -59,6 +64,7 @@ describe LinkedList do
     }
 
     it "must decrease the size by 1" do
+      skip
       start_size = list.size
 
       list.delete(1)
@@ -67,6 +73,7 @@ describe LinkedList do
     end
 
     it "must remove the specified value from the list" do
+      skip
       list.include?(1).must_equal true
       list.include?(2).must_equal true
 
@@ -86,10 +93,12 @@ describe LinkedList do
     }
 
     it "must return true for values in the list" do
+      skip
       list.include?(1).must_equal true
     end
 
     it "must return false for values not in the list" do
+      skip
       list.include?(2).must_equal false
     end
   end
@@ -104,6 +113,7 @@ describe LinkedList do
     }
 
     it "must return the maximum value in the list" do
+      skip
       list.max.must_equal 10
 
       list.add(1)
